@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Redirecting...</title>
-    <script>
-      var path = window.location.pathname;
-      if (path.startsWith('/classcentralhindi')) {
-        // The URL already has classcentralhindi, do nothing
-        window.location.replace(path);
-      } else {
-        // Redirect to the URL with classcentralhindi added
-        window.location.replace('/classcentralhindi' + path);
-      }
-    </script>
-  </head>
-  <body>
-    <p>Redirecting to <a href="/classcentralhindi">/classcentralhindi</a>...</p>
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<title>404 Error - Page Not Found</title>
+</head>
+<body>
+	<script>
+		window.location.href = "https://aysenazezgi.github.io/classcentralhindi" + window.location.pathname;
+	</script>
+</body>
 </html>
