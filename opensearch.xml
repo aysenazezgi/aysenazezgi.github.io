@@ -5,7 +5,7 @@
   <Tags>mooc free online courses</Tags>
   <Contact>contact@classcentral.com</Contact>
   <Url type="text/html" method="get"
-       template="https://aysenazezgi.github.io/classcentralhindi/search?q={searchTerms}"/>
+      <Url type="text/html" method="get" template="https://aysenazezgi.github.io/classcentralhindi/?s={searchTerms}"/>
   <LongName>Class Central free online courses AKA MOOC search</LongName>
   <Image height="64" width="64" type="image/png">https://www.classcentral.com/apple-touch-icon-72x72.png</Image>
   <Image height="16" width="16" type="image/x-icon">https://www.classcentral.com/favicon.ico</Image>
